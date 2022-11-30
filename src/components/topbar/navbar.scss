@@ -1,0 +1,305 @@
+// .topbar{
+//     width: 100%;
+//     height: 170px;
+//     display: flex;
+//     flex-direction: column;
+//     position: fixed;
+//     top: 0;
+//     z-index: 999;
+
+//     .top{
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         margin-top: 15px;
+        
+
+//         .left{
+//             flex: 0.5;
+//             margin-left: 5px;
+//             cursor: pointer;
+//             background-color: red !important;
+//         }
+
+//         .center{
+//             flex: 2;
+//             width: 544px;
+//             height: 40px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-around;
+//             margin-right: 20px;
+            
+
+//             .centerList{
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+//                 padding: 10px;
+//                 background: #FFFFFF;
+//                 border: 4px solid #008080;
+//                 border-radius: 22px;
+
+//                 .centerInput{
+//                 // height: 45px;
+//                 width: 544px;
+//                 border: none;
+//                 padding: 10px;
+//                 background: #FFFFFF;
+//                 // border: 4px solid #008080;
+//                 border-radius: 22px;
+//                 cursor: pointer;
+//                 }
+
+//                .icon{
+//                 margin-right: 4px;
+//                 cursor: pointer;
+//                }
+//             }
+
+//             .searchButton{
+//                 width: 117px;
+//                 height: 45px;
+//                 border: none;
+//                 border-radius: 22px;
+//                 margin-left: 1px;
+//                 background-color: #18BCBC;
+//                 padding: 20px;
+//                 font-size: 20px;
+//                 display: flex;
+//                 align-items: start;
+//                 justify-content: center;
+//                 cursor: pointer;
+                
+
+//                 .searchText{
+//                     // justify-self: center;
+//                     color: #FFFFFF;
+//                     font-weight: 600;
+//                     font-size: 27px;
+//                     line-height: 33px;
+//                     margin-top: -10px;
+//                 }
+//             }
+
+            
+//         }
+
+//         .right{
+//             flex: 1;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-around;
+//             margin-left: 8px;
+
+//             .rightItem{
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: space-between;
+//                 cursor: pointer;
+//                 font-size: 20px;
+//                 font-weight: 400;
+
+//                 .icon{
+//                     margin-right: 5px;
+//                     cursor: pointer;
+//                 }
+
+//                 .cartText{
+//                     margin-left: 9px;
+//                 }
+
+//                 .rightItemOrganize{
+//                     display: flex;
+//                     flex-direction: column;
+
+//                     .organ{
+//                         display: flex;
+//                     }
+//                 }
+
+//                 .rightOrganizerOptions{
+//                     display: none;
+//                 }
+//                 .options{
+//                     display: flex;
+//                     flex-direction: column;
+//                 }
+
+//                 &:hover{
+//                     .rightOrganizerOptions{
+//                         width: 199px;
+//                         height: 232px;
+//                         display: flex;
+//                         flex-direction: column;
+//                         position: absolute;
+//                         margin-top: 52px;
+//                         background: #FFFFFF;
+//                         border: 0.1px solid #FFFFFF;
+//                         border-radius: 27px;
+
+//                         .options{
+//                             .opttionsButton{
+//                                 width: 183px;
+//                                 height: 29px;
+//                                 border-radius: 9px;
+//                                 margin-bottom: 5px;
+//                                 padding: 10px;
+//                                 background: #008080;
+//                                 color: #FFFFFF;
+//                                 padding: 20px;
+//                                 font-size: 20px;
+//                                 display: flex;
+//                                 align-items: start;
+//                                 justify-content: center;
+//                                 cursor: pointer;
+//                                 margin-left: 10px;
+
+//                                 .optionsButtonText{
+//                                     color: #FFFFFF;
+//                                     font-weight: 600;
+//                                     font-size: 20px;
+//                                     line-height: 33px;
+//                                     margin-top: -10px;
+//                                 }
+//                             }
+
+//                             hr{
+//                                 border: 2px solid #008080;
+//                                 width: 100%;
+//                                 background: #008080;
+//                                 margin-top: 5px;
+//                                 margin-bottom: 5px;
+//                             }
+
+//                             .optionsList{
+//                                 text-decoration: none;
+//                                 list-style: none;
+
+//                                 .optionsText{
+//                                     color: #008080;
+//                                     font-size: 20px;
+//                                     font-weight: 600;
+//                                     line-height: 24.2px;
+//                                     margin-left: 15px;
+//                                     margin-top: 5px;
+//                                     margin-bottom: 5px;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .bottom{
+//         .right{
+//             flex: 1;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-around;
+//             margin-left: 8px;
+
+//             .rightItem{
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: space-between;
+//                 cursor: pointer;
+//                 font-size: 20px;
+//                 font-weight: 400;
+
+//                 .icon{
+//                     margin-right: 5px;
+//                     cursor: pointer;
+//                 }
+
+//                 .cartText{
+//                     margin-left: 9px;
+//                 }
+
+//                 .rightItemOrganize{
+//                     display: flex;
+//                     flex-direction: column;
+
+//                     .organ{
+//                         display: flex;
+//                     }
+//                 }
+
+//                 .rightOrganizerOptions{
+//                     display: none;
+//                 }
+//                 .options{
+//                     display: flex;
+//                     flex-direction: column;
+//                 }
+
+//                 &:hover{
+//                     .rightOrganizerOptions{
+//                         width: 199px;
+//                         height: 232px;
+//                         display: flex;
+//                         flex-direction: column;
+//                         position: absolute;
+//                         margin-top: 52px;
+//                         background: #FFFFFF;
+//                         border: 0.1px solid #FFFFFF;
+//                         border-radius: 27px;
+
+//                         .options{
+//                             .opttionsButton{
+//                                 width: 183px;
+//                                 height: 29px;
+//                                 border-radius: 9px;
+//                                 margin-bottom: 5px;
+//                                 padding: 10px;
+//                                 background: #008080;
+//                                 color: #FFFFFF;
+//                                 padding: 20px;
+//                                 font-size: 20px;
+//                                 display: flex;
+//                                 align-items: start;
+//                                 justify-content: center;
+//                                 cursor: pointer;
+//                                 margin-left: 10px;
+
+//                                 .optionsButtonText{
+//                                     color: #FFFFFF;
+//                                     font-weight: 600;
+//                                     font-size: 20px;
+//                                     line-height: 33px;
+//                                     margin-top: -10px;
+//                                 }
+//                             }
+
+//                             hr{
+//                                 border: 2px solid #008080;
+//                                 width: 100%;
+//                                 background: #008080;
+//                                 margin-top: 5px;
+//                                 margin-bottom: 5px;
+//                             }
+
+//                             .optionsList{
+//                                 text-decoration: none;
+//                                 list-style: none;
+
+//                                 .optionsText{
+//                                     color: #008080;
+//                                     font-size: 20px;
+//                                     font-weight: 600;
+//                                     line-height: 24.2px;
+//                                     margin-left: 15px;
+//                                     margin-top: 5px;
+//                                     margin-bottom: 5px;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+    
+// }
